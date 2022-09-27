@@ -1,0 +1,283 @@
+/**
+ * Strong Testimonials Default template
+ */
+/* Clears
+-----------------------------------------------*/
+.clear {
+  clear: both; }
+
+/**
+Minimum paragraph width means no short words in skinny space next to image
+in columns or small screens.
+
+This workaround is needed until we can use flexbox properly
+or CSS offers container queries.
+
+Thanks https://css-tricks.com/minimum-paragraph-widths/
+*/
+.maybe-clear {
+  content: "";
+  /* this value seems to work well in both responsive and Masonry */
+  width: 6em;
+  display: block;
+  overflow: hidden; }
+
+/* Base
+-----------------------------------------------*/
+.strong-view.wpmtst-minimalist {
+  display: block;
+  width: 100%; }
+  .strong-view.wpmtst-minimalist div {
+    box-sizing: border-box; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial {
+    max-height: none;
+    max-width: none;
+    padding: 0;
+    width: 100%; }
+    .strong-view.wpmtst-minimalist .wpmtst-testimonial.t-slide {
+      margin-top: 0;
+      margin-bottom: 0; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-inner {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-image {
+    max-width: 100%; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-field-before {
+    margin-right: 0.5em; }
+  .strong-view.wpmtst-minimalist a.readmore,
+  .strong-view.wpmtst-minimalist a.readmore-toggle {
+    white-space: nowrap;
+    z-index: 100; }
+  .strong-view.wpmtst-minimalist a.readmore-toggle:hover {
+    cursor: pointer; }
+
+.strong-view.slider-container {
+  opacity: 1; }
+
+.strong-view .screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important; }
+
+/* Template
+-----------------------------------------------*/
+.strong-view.wpmtst-minimalist .strong-content {
+  margin: 20px auto 0; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial {
+  margin: 40px auto; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial:first-child {
+    margin-top: 0; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial:last-child {
+    margin-bottom: 0; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-inner > *:not(:nth-last-child(2)):not(:last-child) {
+  margin-bottom: 0.5em; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-inner > *:not(.wpmtst-testimonial-content) {
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-content .wpmtst-testimonial-heading {
+    margin-top: 0px;
+}
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-content:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.5em solid #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.5em;
+    bottom: -0.5em; }
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-content {
+  background: #fff;
+  box-shadow: -3px 2px 40px 0px rgba(128, 144, 174, 0.2);
+  border-radius: 10px;
+  padding: 1.5em;
+  position: relative; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-content p:first-of-type {
+    margin-top: 0;
+    padding-top: 0; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-content p:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-image {
+  margin-right: 1em;
+  position: relative; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-image img {
+    border-radius: 50%; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-image a {
+    text-decoration: none;
+    box-shadow: none; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-image .initials {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle; }
+
+.strong-view.wpmtst-minimalist .readmore {
+  margin-top: 1em; }
+
+.strong-view.wpmtst-minimalist .strong-view-footer {
+  margin-bottom: 20px; }
+
+.strong-view.wpmtst-minimalist .readmore-page {
+  margin-top: 20px;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid #E6E6E6; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-row--custom-1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-row--custom-2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .strong-view.wpmtst-minimalist .wpmtst-testimonial-row--custom-2 > :last-child {
+    margin-left: auto;
+    text-align: right; }
+
+.strong-view.wpmtst-minimalist .strong-rating span.star:before {
+  font-size: 1em; }
+
+.strong-view.wpmtst-minimalist .wpmtst-testimonial-content + .wpmtst-testimonial-row--custom-2 {
+  margin-top: 1em; }
+/*  .strong-view.wpmtst-minimalist .wpmtst-testimonial-content + .wpmtst-testimonial-row--custom-2 .wpmtst-testimonial-image:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.5em solid #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.5em;
+    top: -1em; }*/
+
+/* Pagination
+-----------------------------------------------*/
+/* Simple pagination
+-----------------------------------------------*/
+.strong-view.wpmtst-minimalist.strong-pager {
+  display: none; }
+
+.simplePagerList {
+  /* match .strong-content container */
+  margin: 20px auto;
+  text-align: center; }
+
+.strong-view ul.simplePagerNav {
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block; }
+  .strong-view ul.simplePagerNav li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .strong-view ul.simplePagerNav li a {
+      margin: 0 0.2em;
+      padding: 0.1em 0.3em;
+      outline: none;
+      text-decoration: none;
+      transition: background 0.2s ease; }
+      .strong-view ul.simplePagerNav li a:hover {
+        background: #BBB;
+        color: #FFF; }
+    .strong-view ul.simplePagerNav li.currentPage a {
+      text-decoration: none;
+      background: #999;
+      color: #FFF; }
+
+.strong-view.rtl ul.simplePagerNav li {
+  float: right; }
+
+/* Standard pagination
+-----------------------------------------------*/
+.strong-view .nav-links {
+  margin: 20px auto;
+  text-align: center; }
+  .strong-view .nav-links a, .strong-view .nav-links span {
+    display: inline-block;
+    line-height: 1.5;
+    margin: 0 0.2em;
+    padding: 0.1em 0.3em;
+    transition: background 0.2s ease; }
+    .strong-view .nav-links a.current, .strong-view .nav-links span.current {
+      background: #999;
+      color: #FFF; }
+  .strong-view .nav-links a {
+    outline: none;
+    text-decoration: none; }
+  .strong-view .nav-links a:hover,
+  .strong-view .nav-links a.prev:hover,
+  .strong-view .nav-links a.next:hover,
+  .strong-view .nav-links span:hover {
+    background: #BBB;
+    color: #FFF; }
+
+/* Slideshow
+-----------------------------------------------*/
+.strong-view.wpmtst-minimalist.slider-container {
+  /* If vertical or fade slideshow, move border from individual testimonials to viewport. */ }
+  .strong-view.wpmtst-minimalist.slider-container .strong-content {
+    margin: 0 auto; }
+  .strong-view.wpmtst-minimalist.slider-container .wpmtst-testimonial:not(:first-child) {
+    display: none; }
+
+.strong-view.wpmtst-minimalist.nav-position-inside .wpmtst-testimonial-inner {
+  padding-bottom: 48px; }
+
+.strong-view.wpmtst-minimalist.controls-type-sides .wpmtst-testimonial-inner {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.strong-view.wpmtst-minimalist.slider-stretch .wpmtst-testimonial-inner {
+  /* to force same height for all slides */
+  height: 100%; }
+
+/* Option: Image Center
+-----------------------------------------------*/
+.strong-view.wpmtst-minimalist.image-center .wpmtst-testimonial-row--custom-2 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .strong-view.wpmtst-minimalist.image-center .wpmtst-testimonial-row--custom-2 > div {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    text-align: center; }
+
+/* Option: Image Right
+-----------------------------------------------*/
+.strong-view.wpmtst-minimalist.image-right .wpmtst-testimonial-row--custom-2 .wpmtst-testimonial-image {
+  -ms-flex-order: 2;
+      order: 2;
+  margin-right: 0;
+  margin-left: 1em; }
+
+.strong-view.wpmtst-minimalist.image-right .wpmtst-testimonial-row--custom-2 > div:nth-child(2) {
+  -ms-flex-order: 1;
+      order: 1;
+  margin-left: auto; }
+
+.strong-view.wpmtst-minimalist.image-right .wpmtst-testimonial-row--custom-2 > div:nth-child(3) {
+  -ms-flex-order: 0;
+      order: 0;
+  margin-left: 0; }

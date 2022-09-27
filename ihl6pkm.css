@@ -1,0 +1,43 @@
+﻿/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ibm-plex-sans:
+ *   - http://typekit.com/eulas/00000000000000003b9b323f
+ *   - http://typekit.com/eulas/00000000000000003b9b323e
+ *   - http://typekit.com/eulas/00000000000000003b9b3247
+ *   - http://typekit.com/eulas/00000000000000003b9b3246
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-09-01 17:40:15 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"ibm-plex-sans";
+src:url("af/785b8c/00000000000000003b9b323f/27/l") format("woff2"),url("af/785b8c/00000000000000003b9b323f/27/d") format("woff"),url("af/785b8c/00000000000000003b9b323f/27/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ibm-plex-sans";
+src:url("af/bca514/00000000000000003b9b323e/27/l") format("woff2"),url("af/bca514/00000000000000003b9b323e/27/d") format("woff"),url("af/bca514/00000000000000003b9b323e/27/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ibm-plex-sans";
+src:url("af/c2b037/00000000000000003b9b3247/27/l") format("woff2"),url("af/c2b037/00000000000000003b9b3247/27/d") format("woff"),url("af/c2b037/00000000000000003b9b3247/27/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ibm-plex-sans";
+src:url("af/1d9830/00000000000000003b9b3246/27/l") format("woff2"),url("af/1d9830/00000000000000003b9b3246/27/d") format("woff"),url("af/1d9830/00000000000000003b9b3246/27/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+.tk-ibm-plex-sans { font-family: "ibm-plex-sans",sans-serif; }

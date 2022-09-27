@@ -1,0 +1,357 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CASP - ECPv5.12.0//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CASP
+X-ORIGINAL-URL:https://casproviders.org
+X-WR-CALDESC:Events for CASP
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20220313T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20221106T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220926T133000
+DTEND;TZID=America/New_York:20220926T150000
+DTSTAMP:20220924T150603
+CREATED:20210216T210322Z
+LAST-MODIFIED:20210216T210322Z
+UID:34509-1664199000-1664204400@casproviders.org
+SUMMARY:CASP Business Operating Systems SIG Monthly Meeting
+DESCRIPTION:This SIG is for CASP executives who know how to get business done with the Entrepreneurial Operating System. Led by Renee Keisman of Love2Learn\, Cristina Cordeiro of Dream Big Children\, and Hallie Respondek Blossom Center for Children. \nMeets the 4th Monday of the month at 1:30 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-bos-sig/2022-09-26/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220926T150000
+DTEND;TZID=America/New_York:20220926T160000
+DTSTAMP:20220924T150603
+CREATED:20210621T134611Z
+LAST-MODIFIED:20210621T134611Z
+UID:39659-1664204400-1664208000@casproviders.org
+SUMMARY:CASP Ethics SIG Meeting
+DESCRIPTION:This SIG is for ethics issues in autism service provision. Led by Maria Sasaki Solis (The Reilly Behavioral Group) and Crystal Harms (Behavior Matters). \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-ethics-sig/2022-09-26/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220927T140000
+DTEND;TZID=America/New_York:20220927T150000
+DTSTAMP:20220924T150603
+CREATED:20220520T135749Z
+LAST-MODIFIED:20220520T135749Z
+UID:51856-1664287200-1664290800@casproviders.org
+SUMMARY:CASP School SIG
+DESCRIPTION:This SIG is for issues related to autism providers who operate schools. Led by Melaura Tomaino and Edward Miguel (Port View Preparatory).\nMeets the last Tuesday of every third month at 2 p.m. Eastern. \n  \nSeptember 27th\, 2022 \nDecember 20th\, 2022 \nMarch 28th\, 2023 \nMay 30th\, 2023 \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-school-sig/2022-09-27/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220928T130000
+DTEND;TZID=America/New_York:20220928T140000
+DTSTAMP:20220924T150603
+CREATED:20210326T163127Z
+LAST-MODIFIED:20210326T163127Z
+UID:34748-1664370000-1664373600@casproviders.org
+SUMMARY:CASP Profound Autism SIG Monthly Meeting
+DESCRIPTION:A forum to discuss severe autism. Led by Ellen Rhoads of Texana Center and Kelly Bermingham of People’s Care.\nMeets the 4th Wednesday of the month at 1:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-profound-autism-sig/2022-09-28/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220928T143000
+DTEND;TZID=America/New_York:20220928T153000
+DTSTAMP:20220924T150603
+CREATED:20210803T161216Z
+LAST-MODIFIED:20210803T161216Z
+UID:39685-1664375400-1664379000@casproviders.org
+SUMMARY:CASP Rethink SIG Meeting
+DESCRIPTION:Led by Melissa Saunders of Creative Interventions\, this SIG is for issues related to Rethink.  This SIG will endeavor to consolidate feedback from the CASP community to facilitate organizational collaboration and coordination on best practices\, as well as work to provide a unified voice to Rethink regarding all clinical\, business\, and operational aspects of the software that CASP members need in order to be successful. \n\nLogin for Call Link
+URL:https://casproviders.org/event/rethink-sig/2022-09-28/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220929T120000
+DTEND;TZID=America/New_York:20220929T130000
+DTSTAMP:20220924T150603
+CREATED:20210331T131444Z
+LAST-MODIFIED:20210331T131444Z
+UID:53631-1664452800-1664456400@casproviders.org
+SUMMARY:CASP Documentation SIG Weekly Meeting
+DESCRIPTION:This Weekly SIG is devoted to documentation issues. Led by Heather O’Shea and Rebecca Womack. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-documentation-sig-2021-06-24/2022-09-29/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220930T140000
+DTEND;TZID=America/New_York:20220930T143000
+DTSTAMP:20220924T150603
+CREATED:20220804T201958Z
+LAST-MODIFIED:20220804T202103Z
+UID:54818-1664546400-1664548200@casproviders.org
+SUMMARY:Meet Rethink Behavioral Health
+DESCRIPTION:This free webinar is being presented by Rethink Behavioral Health as part of the “Meet CASP’s Business Affiliates” webinar series.  Please grab some lunch and join us for a 20-30 minute presentation starting at 2:00 pm ET.  Please register here.
+URL:https://casproviders.org/event/meet-rethink-behavioral-health/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221004T140000
+DTEND;TZID=America/New_York:20221004T150000
+DTSTAMP:20220924T150603
+CREATED:20210803T143214Z
+LAST-MODIFIED:20210803T143214Z
+UID:28617-1664892000-1664895600@casproviders.org
+SUMMARY:All-CASP Call
+DESCRIPTION:Monthly CASP Member Call with no agenda\, open for discussion and collaboration. \n\nLogin for Call Link
+URL:https://casproviders.org/event/all-casp-call/2022-10-04/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221005T110000
+DTEND;TZID=America/New_York:20221005T120000
+DTSTAMP:20220924T150603
+CREATED:20210305T190921Z
+LAST-MODIFIED:20210305T190921Z
+UID:39112-1664967600-1664971200@casproviders.org
+SUMMARY:CASP CentralReach SIG Monthly Meeting
+DESCRIPTION:This SIG is for issues related to CentralReach.  This SIG will endeavor to consolidate feedback from the CASP community to facilitate organizational collaboration and coordination on best-practices\, as well as work to provide a unified voice to CentralReach regarding all clinical\, business\, and operational aspects of the software that CASP members need in order to be successful. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-centralreach-sig-monthly-meeting/2022-10-05/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221005T140000
+DTEND;TZID=America/New_York:20221005T150000
+DTSTAMP:20220924T150603
+CREATED:20210909T150222Z
+LAST-MODIFIED:20210909T150222Z
+UID:56656-1664978400-1664982000@casproviders.org
+SUMMARY:CASP 101
+DESCRIPTION:Led by CASP’s Vice President of Government Affairs\, Judith Ursitti\, CASP 101 is the place learn about all things CASP! This workshop covers how to stay connected and get the most out of your membership.  Occurs monthly on the 1st Wednesday\, at 2:00PM ET. Email Judith Ursitti at jursitti@casproviders.org to register.
+URL:https://casproviders.org/event/casp-101-2024-09-04/2022-10-05/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221006T120000
+DTEND;TZID=America/New_York:20221006T130000
+DTSTAMP:20220924T150604
+CREATED:20210331T131444Z
+LAST-MODIFIED:20210331T131444Z
+UID:53632-1665057600-1665061200@casproviders.org
+SUMMARY:CASP Documentation SIG Weekly Meeting
+DESCRIPTION:This Weekly SIG is devoted to documentation issues. Led by Heather O’Shea and Rebecca Womack. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-documentation-sig-2021-06-24/2022-10-06/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221006T130000
+DTEND;TZID=America/New_York:20221006T140000
+DTSTAMP:20220924T150604
+CREATED:20210323T141823Z
+LAST-MODIFIED:20210323T141823Z
+UID:39723-1665061200-1665064800@casproviders.org
+SUMMARY:CASP Diversity\, Equity\, and Inclusion SIG Monthly Meeting
+DESCRIPTION:Led by Kristen Koba-Burdt and Dallas Star\, both of Bayada\, this SIG is devoted to diversity\, equity\, and inclusion.\nMeets the first Thursday of the month at 1:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-dei-sig/2022-10-06/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221006T150000
+DTEND;TZID=America/New_York:20221006T160000
+DTSTAMP:20220924T150604
+CREATED:20220901T162712Z
+LAST-MODIFIED:20220901T162712Z
+UID:56387-1665068400-1665072000@casproviders.org
+SUMMARY:CASP SIG/Section Leaders Meeting
+DESCRIPTION:This quarterly meeting provides an opportunity to share successful strategies and any pain points related to leading CASP SIGs and Sections with fellow SIG/Section leaders and CASP staff. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-sig-section-leaders-meeting/2022-10-06/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221010T140000
+DTEND;TZID=America/New_York:20221010T150000
+DTSTAMP:20220924T150604
+CREATED:20210301T155321Z
+LAST-MODIFIED:20211229T201110Z
+UID:38477-1665410400-1665414000@casproviders.org
+SUMMARY:CASP Client Outcomes SIG Meeting
+DESCRIPTION:Led by Kristine Rodriguez of Autism Learning Partners and Ivy Chong of May Institute\, this SIG is for discussions around client outcomes. Meets quarterly on the 2nd Monday at 2:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-client-outcomes-sig/2022-10-10/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221010T150000
+DTEND;TZID=America/New_York:20221010T160000
+DTSTAMP:20220924T150604
+CREATED:20210525T134125Z
+LAST-MODIFIED:20210525T134125Z
+UID:48561-1665414000-1665417600@casproviders.org
+SUMMARY:CASP ABA as an IEP Service SIG Monthly Meeting
+DESCRIPTION:This SIG is for issues pertaining to education-based funding of ABA services. Led by Missy Olive (Cultivate) and Naa Garrido (Galena Autism and Behavioral Services). Meets the first Monday of the month at 3:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-aba-in-iep-sig/2022-10-10/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221011T113000
+DTEND;TZID=America/New_York:20221011T123000
+DTSTAMP:20220924T150604
+CREATED:20210331T135639Z
+LAST-MODIFIED:20220913T033036Z
+UID:39703-1665487800-1665491400@casproviders.org
+SUMMARY:CASP Caregiver Collaboration SIG
+DESCRIPTION:Led by Heather O’Shea of Verbal Behavior Associates and Kelly Bermingham of People’s Care\, this SIG is focused on Caregiver Collaboration.  Meetings occur on the second Tuesday of the month at 11:30 a.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-caregiver-collaboration-sig-2022-09-13__trashed/2022-10-11/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221011T140000
+DTEND;TZID=America/New_York:20221011T150000
+DTSTAMP:20220924T150604
+CREATED:20210413T160314Z
+LAST-MODIFIED:20210413T160314Z
+UID:37780-1665496800-1665500400@casproviders.org
+SUMMARY:CASP Insurance and Medicaid SIG Meeting
+DESCRIPTION:This SIG is for discussion of issues related to insurance and Medicaid funding of autism healthcare services. Led by Dr. Eric Larsson of Lovaas Midwest and Dr. Tiffany Mrla of Sageway.  Meetings occur the 2nd Tuesday at 2:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-insurance-and-medicaid-sig/2022-10-11/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221013T140000
+DTEND;TZID=America/New_York:20221013T150000
+DTSTAMP:20220924T150604
+CREATED:20210427T161620Z
+LAST-MODIFIED:20210427T161620Z
+UID:39643-1665669600-1665673200@casproviders.org
+SUMMARY:CASP Telehealth SIG Monthly Meeting
+DESCRIPTION:This SIG is for Telehealth issues. Led by Dr. Joy Pollard of Behavior Change Institute and Linda Heitzman-Powell Integrated Behavioral Technologies. Meets the 2nd Thursday of the month at 2:00 p.m. Eastern. \n\n\n\n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-telehealth-sig-monthly-meeting/2022-10-13/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221017T140000
+DTEND;TZID=America/New_York:20221017T150000
+DTSTAMP:20220924T150604
+CREATED:20210422T181551Z
+LAST-MODIFIED:20211229T201219Z
+UID:37412-1666015200-1666018800@casproviders.org
+SUMMARY:CASP Tricare SIG Monthly Meeting
+DESCRIPTION:This SIG is devoted to Tricare issues. Led by Rebecca Womack (BlueSprig); and Emily Treadway (Empower Behavioral Health).  Meetings occur the 3rd Monday of the month 2:00 p.m. Eastern.) \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-tricare-sig-2021-08-16/2022-10-17/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221019T133000
+DTEND;TZID=America/New_York:20221019T143000
+DTSTAMP:20220924T150604
+CREATED:20210309T153128Z
+LAST-MODIFIED:20220325T175022Z
+UID:42161-1666186200-1666189800@casproviders.org
+SUMMARY:CASP Promoting ABA SIG Meeting
+DESCRIPTION:This SIG is for promoting and defending ABA. Led by Dr. Justin Leaf (Autism Partnership Foundation). \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-promoting-aba-sig-meeting-2022-07-20/2022-10-19/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221024T133000
+DTEND;TZID=America/New_York:20221024T150000
+DTSTAMP:20220924T150604
+CREATED:20210216T210322Z
+LAST-MODIFIED:20210216T210322Z
+UID:34510-1666618200-1666623600@casproviders.org
+SUMMARY:CASP Business Operating Systems SIG Monthly Meeting
+DESCRIPTION:This SIG is for CASP executives who know how to get business done with the Entrepreneurial Operating System. Led by Renee Keisman of Love2Learn\, Cristina Cordeiro of Dream Big Children\, and Hallie Respondek Blossom Center for Children. \nMeets the 4th Monday of the month at 1:30 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-bos-sig/2022-10-24/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221024T150000
+DTEND;TZID=America/New_York:20221024T160000
+DTSTAMP:20220924T150604
+CREATED:20210621T134611Z
+LAST-MODIFIED:20210621T134611Z
+UID:39660-1666623600-1666627200@casproviders.org
+SUMMARY:CASP Ethics SIG Meeting
+DESCRIPTION:This SIG is for ethics issues in autism service provision. Led by Maria Sasaki Solis (The Reilly Behavioral Group) and Crystal Harms (Behavior Matters). \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-ethics-sig/2022-10-24/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221026T130000
+DTEND;TZID=America/New_York:20221026T140000
+DTSTAMP:20220924T150604
+CREATED:20210326T163127Z
+LAST-MODIFIED:20210326T163127Z
+UID:34749-1666789200-1666792800@casproviders.org
+SUMMARY:CASP Profound Autism SIG Monthly Meeting
+DESCRIPTION:A forum to discuss severe autism. Led by Ellen Rhoads of Texana Center and Kelly Bermingham of People’s Care.\nMeets the 4th Wednesday of the month at 1:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-profound-autism-sig/2022-10-26/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221026T143000
+DTEND;TZID=America/New_York:20221026T153000
+DTSTAMP:20220924T150604
+CREATED:20210803T161216Z
+LAST-MODIFIED:20210803T161216Z
+UID:39686-1666794600-1666798200@casproviders.org
+SUMMARY:CASP Rethink SIG Meeting
+DESCRIPTION:Led by Melissa Saunders of Creative Interventions\, this SIG is for issues related to Rethink.  This SIG will endeavor to consolidate feedback from the CASP community to facilitate organizational collaboration and coordination on best practices\, as well as work to provide a unified voice to Rethink regarding all clinical\, business\, and operational aspects of the software that CASP members need in order to be successful. \n\nLogin for Call Link
+URL:https://casproviders.org/event/rethink-sig/2022-10-26/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221101T140000
+DTEND;TZID=America/New_York:20221101T150000
+DTSTAMP:20220924T150604
+CREATED:20210803T143214Z
+LAST-MODIFIED:20210803T143214Z
+UID:28618-1667311200-1667314800@casproviders.org
+SUMMARY:All-CASP Call
+DESCRIPTION:Monthly CASP Member Call with no agenda\, open for discussion and collaboration. \n\nLogin for Call Link
+URL:https://casproviders.org/event/all-casp-call/2022-11-01/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221102T110000
+DTEND;TZID=America/New_York:20221102T120000
+DTSTAMP:20220924T150604
+CREATED:20210305T190921Z
+LAST-MODIFIED:20210305T190921Z
+UID:39113-1667386800-1667390400@casproviders.org
+SUMMARY:CASP CentralReach SIG Monthly Meeting
+DESCRIPTION:This SIG is for issues related to CentralReach.  This SIG will endeavor to consolidate feedback from the CASP community to facilitate organizational collaboration and coordination on best-practices\, as well as work to provide a unified voice to CentralReach regarding all clinical\, business\, and operational aspects of the software that CASP members need in order to be successful. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-centralreach-sig-monthly-meeting/2022-11-02/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221102T140000
+DTEND;TZID=America/New_York:20221102T150000
+DTSTAMP:20220924T150604
+CREATED:20210909T150222Z
+LAST-MODIFIED:20210909T150222Z
+UID:56657-1667397600-1667401200@casproviders.org
+SUMMARY:CASP 101
+DESCRIPTION:Led by CASP’s Vice President of Government Affairs\, Judith Ursitti\, CASP 101 is the place learn about all things CASP! This workshop covers how to stay connected and get the most out of your membership.  Occurs monthly on the 1st Wednesday\, at 2:00PM ET. Email Judith Ursitti at jursitti@casproviders.org to register.
+URL:https://casproviders.org/event/casp-101-2024-09-04/2022-11-02/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221103T130000
+DTEND;TZID=America/New_York:20221103T140000
+DTSTAMP:20220924T150604
+CREATED:20210323T141823Z
+LAST-MODIFIED:20210323T141823Z
+UID:39724-1667480400-1667484000@casproviders.org
+SUMMARY:CASP Diversity\, Equity\, and Inclusion SIG Monthly Meeting
+DESCRIPTION:Led by Kristen Koba-Burdt and Dallas Star\, both of Bayada\, this SIG is devoted to diversity\, equity\, and inclusion.\nMeets the first Thursday of the month at 1:00 p.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-dei-sig/2022-11-03/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221108T113000
+DTEND;TZID=America/New_York:20221108T123000
+DTSTAMP:20220924T150604
+CREATED:20210331T135639Z
+LAST-MODIFIED:20220913T033036Z
+UID:39704-1667907000-1667910600@casproviders.org
+SUMMARY:CASP Caregiver Collaboration SIG
+DESCRIPTION:Led by Heather O’Shea of Verbal Behavior Associates and Kelly Bermingham of People’s Care\, this SIG is focused on Caregiver Collaboration.  Meetings occur on the second Tuesday of the month at 11:30 a.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-caregiver-collaboration-sig-2022-09-13__trashed/2022-11-08/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20221108T113000
+DTEND;TZID=America/New_York:20221108T123000
+DTSTAMP:20220924T150604
+CREATED:20220510T155723Z
+LAST-MODIFIED:20220913T100456Z
+UID:51494-1667907000-1667910600@casproviders.org
+SUMMARY:CASP Caregiver Collaboration SIG Meeting
+DESCRIPTION:Led by Heather O’Shea of Verbal Behavior Associates and Kelly Bermingham of People’s Care\, this SIG is focused on Caregiver Collaboration.  Meetings occur on the second Tuesday every other month at 11:30 a.m. Eastern. \n\nLogin for Call Link
+URL:https://casproviders.org/event/casp-caregiver-sig-meeting/2022-11-08/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,410 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.1
+Text Domain:  Avada
+*/
+
+@media only screen and (max-width: 640px) {
+ 	.tfs-slider .slide-content-container .slide-content .caption {display: none !important;}
+ 	p.home-exploretxt {font-size: 15px !important; margin:30px 0 40px !important; color: #fff !important;}
+ 	p.founding-membertxt {font-size: 14px !important;}
+ 	.fusion-carousel .fusion-carousel-item {padding: 0 6px !important;}
+ 	.fusion-columns .fusion-column {margin: 0px 0px 20px !important;}
+}
+
+.fusion-logo .site-logo-override {
+	display: block !important;
+	width: 100% !important;
+	height: auto !important;
+	max-width: 379px !important;
+}
+
+@media only screen and (max-width: 640px) {
+	.fusion-logo .site-logo-override {
+		width: 70% !important;
+		max-width: 70% !important;
+	}
+}
+
+.fusion-logo .fusion-logo-link {
+	display: none;
+}
+
+p.home-exploretxt {text-align: center; font-size: 24px; font-weight: 300; line-height: 24px; color: #fff !important;margin:30px 0 40px !important;}
+p.founding-membertxt {color: #fff !important; font-size: 24px;line-height: 28px !important; font-weight: 300 !important;}
+.fusion-carousel .fusion-carousel-item {padding: 0 18px;}
+.fusion-recent-posts .columns .column h4 {font-size: 24px !important; margin: 22px 0 !important;}
+.fusion-recent-posts .columns .column h4 a {color: #292929 !important;}
+.fusion-recent-posts .columns .column h4 a:hover {color: #669933 !important;}
+
+.fusion-main-menu {
+    font-weight: 800;
+    letter-spacing: .04em;}
+
+.tfs-slider .slide-content-container .slide-content {max-width:100%;}
+.fusion-mobile-menu-sep, .fusion-secondary-main-menu {border-bottom: none !important;}
+.fusion-title {
+  line-height:0 !important;
+}
+.tfs-slider .slide-content-container .with-bg .fusion-title-sc-wrapper {
+  padding:0px !important;
+}
+.fusion-title h2 {font-size: 24px !important;}
+
+.fusion-header {background-color: #1d3a75;}
+.fusion-secondary-header {display:none !important;}
+.fusion-main-menu {text-transform: uppercase;}
+.fusion-footer-widget-area .widget-title {font-size: 18px;}
+.btn, .fusion-button.button-blue {
+  color: #ffffff;
+  font-size: 16px;
+  background: #1d3a75;
+  padding: 13px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal !important;
+  border: none !important;
+}
+
+.btn:hover, .fusion-button.button-blue:hover  {
+  background: #1d3a75;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #669933;
+  font-weight: normal !important;
+  border: none !important;
+}
+
+.fusion-portfolio-one .fusion-portfolio-buttons .fusion-button{
+  color: #ffffff;
+  font-size: 12px;
+  background: #1d3a75;
+  padding: 13px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.fusion-portfolio-one .fusion-portfolio-buttons .fusion-button:hover {
+  color: #669933;
+    background: #1d3a75;
+}
+
+
+.fusion-secondary-main-menu {background-color: #fff !important;}
+
+.btn-transparentblk {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  padding: 13px 18px !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  border: 1px solid #fff !important;
+}
+
+.btn-transparentblk:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  color: #669933 !important;
+  border: 1px solid #fff !important;
+}
+
+.col-lg-4 {
+    width: 31.5% !important;
+}
+
+.fusion-recent-posts .columns .column {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 0 4px;
+    max-height: 530px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis;}
+
+
+.fusion-footer-widget-area .widget-title {letter-spacing: .04em !important;}
+
+.fusion-header-v4 .search-table {width: 200px !important; height: 50px !important;}
+.search-table .search-field input {border-color:#4f6ba3 !important;}
+.searchform .search-table .search-field input, input.s {height: 40px !important; color: #fff !important; font-weight: 300 !important; padding-left: 32px;}
+
+
+.fusion-secondary-menu-search .searchform .search-table .search-button input {
+  background: transparent !important;
+  border: none;
+  border-radius: 0;
+  color: #669933 !important;
+  font-size: 13px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  text-indent: 0;
+  cursor: pointer;
+  font-family: 'icomoon';
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  transition: all .2s;
+}
+.fusion-secondary-menu-search .searchform .search-button {
+  height: 40px !important;
+  line-height: 40px !important;
+  width: 40px !important;
+  vertical-align: middle !important;
+  margin-top: -2px !important;
+  position: absolute !important;
+  right: 162px !important;
+  top: 0;
+}
+
+.fusion-secondary-menu-search .fusion-header-v4 .search-table {width: 205px !important; height: 50px !important;}
+
+ input.s  {font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+    font-weight: 400 !important; letter-spacing: .04em !important; font-size: 14px !important;}
+
+.search-table .search-field input {background-color: #344d83 !important;border: 1px solid #375088 !important;}
+
+.fusion-page-title-bar {background-image: none !important; background-color: #4f6ba3 !important;}
+
+.fusion-page-title-bar h1, .fusion-page-title-bar h3, .fusion-page-title-bar .fusion-breadcrumbs, .fusion-page-title-bar .fusion-breadcrumbs a {color:#fff !important;}
+
+#mc_embed_signup .button {
+    color: #ffffff;
+    font-size: 14px !important;
+    background: #1d3a75 !important;
+    padding: 3px 14px !important;
+    text-decoration: none !important;
+    border: none !important !important;
+border-radius: 0px !important;
+font-family: 'Lato';
+font-weight: 400 !important;
+letter-spacing: .04em !important;
+}
+
+#mc_embed_signup .mc-field-group input {
+    color: #ccc !important;
+    font-style: italic !important;
+    font-family: 'Lato' !important;
+    font-size: 15px !important;
+    padding-left: 6px !important;
+}
+
+#mc_embed_signup form {padding: 10px 0 !important;}
+
+#mc_embed_signup .mc-field-group input { height: 40px !important;}
+
+.fusion-footer-widget-area .widget-title, .fusion-footer-widget-area h3 {font-size:18px !important;}
+
+.frm_style_formidable-style.with_frm_style input[type=text], .frm_style_formidable-style.with_frm_style input[type=password], .frm_style_formidable-style.with_frm_style input[type=email], .frm_style_formidable-style.with_frm_style input[type=number], .frm_style_formidable-style.with_frm_style input[type=url], .frm_style_formidable-style.with_frm_style input[type=tel], .frm_style_formidable-style.with_frm_style input[type=phone], .frm_style_formidable-style.with_frm_style input[type=search], .frm_style_formidable-style.with_frm_style select, .frm_style_formidable-style.with_frm_style textarea, .frm_form_fields_style, .frm_style_formidable-style.with_frm_style .frm_scroll_box .frm_opt_container, .frm_form_fields_active_style, .frm_form_fields_error_style, .frm_style_formidable-style.with_frm_style .chosen-container-multi .chosen-choices, .frm_style_formidable-style.with_frm_style .chosen-container-single .chosen-single, .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_form_submit_style, .frm_style_formidable-style.with_frm_style.frm_login_form input[type=submit]  {border-radius: 0px !important;}
+
+.listing-item {
+    width: 31.225%;
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 0 6px;
+    max-height: 530px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+   display: inline-block;
+}
+.whtheadingline:before {
+	content: '';
+	display: block;
+	height:3px;
+	background-color:#fff;
+	width:86px;
+	margin-bottom:20px;
+	margin-top: 25px;
+}
+
+.about:before {
+	content: '';
+	display: block;
+	height:3px;
+	background-color:#1d3a75;
+	width:86px;
+	margin-bottom:20px;
+}
+
+h3.about 
+{font-size: 24px; font-weight:bold;text-transform: uppercase;color: #1d3a75; font-family: Lato;}
+
+.title {
+    font-size: 2em !important;
+    line-height: 2em;}
+
+.aboutus-fusionheader {
+    margin-top: -55px;}
+.aboutus-fusionheader .col-lg-4 {width: 33.3333% !important;}
+
+
+.flip-box-front, .flip-box-back {
+	 border-top: none !important; border-bottom: none !important;
+ }
+ .flip-box-front {margin-top: 50px !important;}
+ .flip-box-grafix .flip-box-image {margin-bottom:-50px !important;}
+.fusion-flip-box-wrapper .fusion-column .col-lg-4 .col-md-4 .col-sm-4 {border-left: 1px solid #fff !important; border-right: 1px solid #fff !important;}
+
+span.h3-heading {
+    border-top: 2px solid #1d3a75;
+    width: 32px;}
+h3  {font-weight: 400 !important; font-size: 24px;}
+
+/*
+ * .fusion-footer {margin-top: -40px !important;}
+ */
+
+
+.providerbtn 
+    {
+    border: 1px solid#ccc;
+    padding: 6px 18px 6px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1d3a75;
+  }
+
+  .providerbtn:hover
+    {color: #4f6ba3;
+  }
+
+.fusion-person .person-desc {text-align: left !important;}
+.fusion-person .person-author-wrapper .person-name {font-weight:bold;font-size: 20px;}
+.fusion-person .person-author-wrapper .person-title {color: #4f6ba3;font-size:16px;}
+
+.fusion-person .person-imgage-container {
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(#grayscale);
+    filter: gray;
+}
+#directory_form {
+  margin: -20px auto 50px auto !important;
+  width: 100% !important;}
+
+#directory_form textarea, select {
+    font: 500 100% Lato !important;
+    vertical-align: middle !important;
+    letter-spacing: 0.04em !important;
+    height:40px !important;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+    color: #000;
+    padding-left: 12px;
+    padding-right: 12px;
+      margin: 3px 5px;
+}
+
+#directory_form input {
+  height: 40px !important;
+  border-radius: 0px !important;
+  color: #000;
+  background-color: #fff !important;
+  font-weight: 400;
+      margin: 3px 5px;
+}
+#directory_form select {
+      color: #000;
+     border: 0;
+     outline: 1px solid #1d3a75;
+      background-color: #fff !important;
+      height: 38px !important;
+      margin: 3px 5px;
+}
+
+#directory_form input[type=submit] {
+    background-color: #4f6ba3 !important;
+    padding: 2px 22px;
+    color: white;
+    font-weight: 300;
+    font-family: Lato;
+    border: 1px solid #1d3a75;
+    letter-spacing: .04em;
+  }
+
+#dir_form_state {
+	/*display:none !important;*/
+}
+
+@media (min-width: 768px) {
+.col-lg-6 {
+    width: 48% !important;
+}}
+
+.meminfo {max-width:90%; margin-left:250px !important;}
+
+/* formidable signup form */
+#frm_form_12_container {
+	padding: 20px 0;
+}
+#frm_form_12_container input[type="email"] {
+	display: block;
+	width: 100%;
+	max-width: 290px;
+	padding: 8px 0;
+	text-indent: 2%;
+	color: #ccc !important;
+	font-style: italic !important;
+	font-family: 'Lato' !important;
+	font-size: 15px !important;
+	padding-left: 6px !important;
+	border: 1px solid #999;
+	-webkit-appearance: none;
+}
+#frm_form_12_container button.frm_button_submit {
+	clear: both;
+	background-color: #aaa;
+	border: 0 none;
+	border-radius: 4px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 15px;
+	margin: 0 5px 10px 0;
+	padding: 0 22px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+	color: #ffffff;
+	font-size: 14px !important;
+	background: #1d3a75 !important;
+	padding: 3px 14px !important;
+	text-decoration: none !important;
+	border: none !important !important;
+	border-radius: 0px !important;
+	font-family: 'Lato';
+	font-weight: 400 !important;
+	letter-spacing: .04em !important;
+	margin-top: 10px;
+}
+#frm_form_12_container .frm_error,
+#frm_form_12_container .frm_error_style {
+	color: #6B0505;
+	font-weight: bold;
+}
+#frm_form_12_container .frm_message {
+	color: white;
+	background: #669933;
+	padding: 14px 20px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+#frm_form_12_container .frm_message p {
+	margin: 0;
+	padding: 0;	
+}
